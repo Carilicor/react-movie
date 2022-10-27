@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Creepster&display=swap');
+.App {
+  font-family: 'Creepster', sans-serif;
+  text-align: center;
+  background-color: rgb(129, 4, 4);
+  min-height: 100vh;
+  margin: 0;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+header {
+  background-color: rgb(55, 11, 11);
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#movie-list-container {
+  width: 100%;
+  background-color: rgb(11, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 16px;
+  margin-top: 8px;
+}
+
+.movie-card {
+  width: 225px;
+  background-color: rgb(55, 11, 11);
+}
+
+.movie-poster {
+  width: 100%;
+}
+
+.movie-title {
+  color: whitesmoke;
+}
+
+footer a {
+  color: rgb(11, 0, 0);
+}
